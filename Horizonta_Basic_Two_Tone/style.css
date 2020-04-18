@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+
+nav {
+    background-color: #212121;
+}
+
+.nav-list {
+    margin: 0 0 0 4em;
+    padding: 0;
+}
+
+.nav-section {
+    display: inline;
+    list-style-type: none;
+}
+
+.nav-item {
+    padding: 1em;
+    text-decoration: none;
+    display: inline-block;
+    color: #464646;
+}
+
+.nav-item:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-item:hover {
+    color: #fff;
+    background-color: green;
+}
