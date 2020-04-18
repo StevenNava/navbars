@@ -14,15 +14,9 @@ nav {
     align-items: center;
 }
 
-.nav-list-item-left {
-    float: left;
-}
-
-.nav-list-item-right {
-    float: right;
-}
-
 .nav-link-list {
+    display: flex;
+    justify-content: flex-start;
     list-style-type: none;
     margin: 0 0 0 4em;
 }
@@ -40,6 +34,8 @@ nav {
 }
 
 .nav-action-buttons {
+    display: flex;
+    justify-content: flex-end;
     list-style-type: none;
     margin: 0 4em 0 0;
 }
