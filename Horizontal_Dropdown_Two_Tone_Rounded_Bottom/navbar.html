@@ -8,19 +8,30 @@
 </head>
 <body>
     <nav>
-        <a class="nav-link" href="#">Home</a>
-        <div class="dropdown">
-            <button class="dropdown-button">
-                Projects
-            </button>
+        <div class="nav-links">
+            <a class="nav-link nav-top-level-item" href="#">Home</a>
+            <div class="dropdown nav-top-level-item">
+                <button class="dropdown-button">Projects</button>
+                <div class="dropdown-content">
+                    <a class="dropdown-link" href="#">Project 1</a>
+                    <a class="dropdown-link" href="#">Project 2</a>
+                </div>
+            </div>
+            <div class="dropdown nav-top-level-item">
+                <button class="dropdown-button">Previous Work</button>
+                <div class="dropdown-content">
+                    <a class="dropdown-link" href="#">Work Sample 1</a>
+                    <a class="dropdown-link" href="#">Work Sample 2</a>
+                    <a class="dropdown-link" href="#">Work Sample 3</a>
+                </div>
+            </div>        
+            <a class="nav-link nav-top-level-item" href="#">Contact</a>
+            <a class="nav-link nav-top-level-item" href="#">About Me</a>
         </div>
-        <div class="dropdown">
-            <button class="dropdown-button">
-                Previous Work
-            </button>
-        </div>        
-        <a class="nav-link" href="#">Contact</a>
-        <a class="nav-link" href="#">About Me</a>
+
+        <div class="nav-action-buttons">
+            <button class="nav-action-button">Subscribe</button>
+        </div>
     </nav>
 </body>
 </html>
