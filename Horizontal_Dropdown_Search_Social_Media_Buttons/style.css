@@ -58,14 +58,17 @@ nav {
 
 .social-media-icons {
   display: flex;
+  align-items: center;
   margin-right: 4em;
 }
 
 .social-media-icon {
-  width: 16px;
-  border: none;
-  padding: 0;
-  margin: 0 2em;
+  margin-left: 1em;
+}
+
+.icon-small {
+  margin: 0;
+  width: 24px;
 }
 
 .nav-link:hover,
